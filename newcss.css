@@ -1,0 +1,102 @@
+body {
+    background-image: url("tile.jpg");
+    margin: 1rem;
+}
+header {
+    margin: 0.1rem;
+}
+.container-fluid {
+flex-wrap: wrap;
+
+}
+.container-fluid {
+   position: relative;
+
+}
+.img-responsive {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    height: 100%;
+    background-image: url("formbg.jpg");
+    margin-bottom: 0.2rem;
+}
+textarea {
+    font-size: 2rem;
+    line-height: 2rem;
+    outline: none;
+    display: block;
+    padding: 17px 1rem 0px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0)
+
+}
+textarea::-webkit-input-placeholder {
+    color: #0000FF;
+}
+
+label span {
+    margin-left: 0px;
+    color: #0000FF;
+}
+input[type="date"] {
+    border: 1px solid #000000;
+;
+}
+
+.submit {
+    border: 3px solid #0000FF;
+    margin-right: 10% ;
+    padding: 0px;
+    display: block;
+}
+.note_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.note {
+    width: 200px;
+    height: 370px;
+}
+.delete {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;	
+    background-color: #fff;
+margin-bottom: -8px
+}
+
+.noteContent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    position: relative;
+    background-image: url("notebg.png");
+    background-repeat: no-repeat;
+    height: 100%
+
+}
+.task {
+    word-break:break-all;
+    width: 80%;
+    margin-left: 10px;
+    display: block;
+    position: absolute;
+
+}
+.date   {
+    margin-left: 10px;
+    display: block;
+    position: absolute;
+    left: 0.5rem;
+    padding-top: 18rem; 
+}
+
+
